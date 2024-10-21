@@ -9,6 +9,6 @@ double sum = c + d;
 double quotient = product / sum;
 
 Console.WriteLine($"Даны переменные a = {a}; b = {b}; c = {c}; d = {d}; \n");
-//
+
 Console.WriteLine("Результат примера:");
 Console.WriteLine($"(a * b) / (c + d) = {quotient} \n");
