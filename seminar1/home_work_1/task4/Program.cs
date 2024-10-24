@@ -23,6 +23,6 @@ if (num > 0)
 }
 else
 {
-   Console.WriteLine("Ошибка ввода");
+    Console.WriteLine("Ошибка ввода");
 }
 
