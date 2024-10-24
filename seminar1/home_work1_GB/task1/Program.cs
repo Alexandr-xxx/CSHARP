@@ -16,17 +16,27 @@
 // На выходе:
 // ● не делится
 
+
 Console.Write("Введите первое целое число: ");
 int firstNumber = Convert.ToInt32(Console.ReadLine());
 
 Console.Write("Введите второе целое число: ");
 int secondNumber = Convert.ToInt32(Console.ReadLine());
 
-if (firstNumber % secondNumber == 0)
+if (secondNumber == 0)
 {
-    Console.Write($"Первое число {firstNumber} делится на второе число {secondNumber}");
+    Console.Write($"Число {firstNumber} нельзя поделить на {secondNumber} (на ноль делить нельзя)");
 }
 else
 {
-    Console.Write($"Первое число {firstNumber} не делится на второе число {secondNumber}");
+    if (firstNumber % secondNumber == 0)
+    {
+        Console.Write($"Число {firstNumber} делится на число {secondNumber}");
+    }
+    else
+    {
+        Console.Write($"Число {firstNumber} не делится на число {secondNumber}");
+    }
 }
+
+
