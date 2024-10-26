@@ -20,4 +20,25 @@ while (i < array.Length)
     }
     i++; // i = i + 1
 }
-Console.Write($"Вес самой тяжелой гири равен: {max} ");
+Console.WriteLine($"Вес самой тяжелой гири равен: {max} (цикл While)");
+
+max = array[0];
+
+for (int j = 0; j < array.Length; j++)
+{
+    if (array[j] > max)
+    {
+        max = array[j];
+    }
+}
+Console.WriteLine($"Вес самой тяжелой гири равен: {max} (цикл For)");
+
+max = array[0];
+foreach (int e in array)
+{
+    if (e > max)
+    {
+        max = e;
+    }
+}
+Console.WriteLine($"Вес самой тяжелой гири равен: {max} (цикл Foreach)");
