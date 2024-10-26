@@ -3,8 +3,9 @@
 // натуральное число). Вывести элементы
 // массива на экран.
 
-Console.Write("Введите натуральное число: ");
-int n = Convert.ToInt32(Console.ReadLine());
+int n = 10;
+//Console.Write("Введите натуральное число: ");
+//int n = Convert.ToInt32(Console.ReadLine());
 
 int[] arr = new int[n];
 int i = 0; // i - это счётчик
