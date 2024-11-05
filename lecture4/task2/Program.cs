@@ -40,7 +40,7 @@ Console.WriteLine();
 
 foreach (int e in matrix)
 {
-    if (IsInteresting(e) == true)
+    if (IsInteresting(e) ==  true)
     {
         Console.WriteLine(e);
     }
@@ -66,5 +66,3 @@ int GetSumOfDigit(int value)
     }
     return sum;
 }
-
-
