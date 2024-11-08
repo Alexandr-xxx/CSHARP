@@ -56,5 +56,3 @@ string GetLettersFromString(string s)
 string str = Console.ReadLine();
 string result = GetLettersFromString(str);
 Console.WriteLine(result);
-
-
