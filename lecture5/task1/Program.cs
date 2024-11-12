@@ -1,4 +1,6 @@
-﻿int Fact(int n)
+﻿
+
+int Fact(int n)
 {
     if (n == 1 || n == 0)
     {
@@ -12,3 +14,7 @@
 // int result = Fact(5);
 // Console.WriteLine(result);
 Console.WriteLine(Fact(5));
+
+// F11 шаг с заходом
+// f10 шаг с обходом
+// F5 продолжить
