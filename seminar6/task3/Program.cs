@@ -5,7 +5,6 @@
 // “hello” => 2
 // “world” => 1
 
-
 int CountOfVowelLetters(string str)
 {
     string vowels = "aeiouy";
@@ -15,7 +14,7 @@ int CountOfVowelLetters(string str)
     {
         for (int j = 0; j < vowels.Length; j++)
         {
-            if (vowels[j] == str[i])
+            if (str[i] == vowels[j])
             {
                 count++;
             }
@@ -23,7 +22,6 @@ int CountOfVowelLetters(string str)
     }
     return count;
 }
-
 
 Console.Write("Введите строку из латинских букв в нижнем регистре: ");
 string str = Console.ReadLine();
